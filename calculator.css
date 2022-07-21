@@ -15,7 +15,7 @@ form{
     position: relative;
     top:50%;
     left: 50%;
-   
+    transform: translate(-50% , -50%);
 }
 
 input[type="text"] {
@@ -26,6 +26,7 @@ input[type="text"] {
     margin: 5px;
     padding: 0 10px;
     border: none;
+    width: calc(100% - 30px);
 }
 
 input[type="button"] {
@@ -36,8 +37,10 @@ input[type="button"] {
     text-align: center;
     margin: 0 0 5px 5px;
     border: none;
+    width: calc(100% /4 - 6.5px);
 }
 
 input[type="button"]:nth-last-of-type(1) {
     background: yellow;
+    width: calc(50% - 7px);
 }
