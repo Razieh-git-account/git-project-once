@@ -9,3 +9,7 @@ function c(){
 function data(val){
     calc.display.value += val;
 }
+
+function equal(){
+    calc.display.value = eval(calc.display.value)
+}
