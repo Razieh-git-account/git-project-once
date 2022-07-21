@@ -5,3 +5,7 @@ function ac(){
 function c(){
     calc.display.value = calc.display.value.slice(0, -1);
 }
+
+function data(val){
+    calc.display.value += val;
+}
