@@ -1,5 +1,5 @@
 function ac(){
-    cancelIdleCallback.display.value="";
+    calc.display.value="";
 }
 
 function c(){
